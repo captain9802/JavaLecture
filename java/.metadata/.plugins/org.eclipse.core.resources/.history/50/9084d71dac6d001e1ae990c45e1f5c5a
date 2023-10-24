@@ -1,0 +1,14 @@
+package chap999_homework.home;
+
+public class _01_HomeWork {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		RockScissPaper abc = new RockScissPaper();
+		abc.start();
+		
+
+	}
+
+}

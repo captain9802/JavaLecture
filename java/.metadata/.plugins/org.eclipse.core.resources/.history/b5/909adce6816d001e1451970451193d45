@@ -1,0 +1,22 @@
+package chap07_class.circle;
+
+public class Circle {
+	// 1. 상수 double PI 3.14 선언
+	double PI = 3.14;
+	
+	// 2. 반지름 int radius
+	int radius;
+	
+	// 3. 기본생성자 1개와 radius를 받아서 초기화하는 생성자 1개
+	public Circle() {		
+	}
+	
+	public Circle(int radius) {		
+	}
+	
+	
+	
+	
+	
+
+}

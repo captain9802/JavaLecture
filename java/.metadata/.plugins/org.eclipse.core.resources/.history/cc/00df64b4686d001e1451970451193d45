@@ -1,0 +1,31 @@
+package chap05_method.game;
+
+import java.util.Random;
+
+public class Lotto {
+	// 1. 1~45까지 숫자 중 랜덤 값 7개를 저장하는 배열을 리턴하는 메소드를 만드세요.
+	// 중복 제거하는 로직 포함.
+	
+	Random random = new Random();
+	public int lotto() {
+		
+		int[] load = new int[7];
+		int sum = 0;
+		
+		for(int i = 0; i < load.length; i++) {
+			load[i] = random.nextInt(45) + 1;
+			if(i > 0) {
+				for(int t = 0; t < i; t++) {
+					load[t] =load[i];
+					t--;
+				}
+			}
+			sum = load[i];
+		}
+		
+		
+		return sum;
+		
+	}
+
+}

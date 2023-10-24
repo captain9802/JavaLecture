@@ -1,0 +1,36 @@
+package chap05_array;
+
+public class _home_work {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1. 삼항 조건 연산자를 이용하여 String str = "dBEfIZ"; 를 이용하여 ajEfcC 출력하세요.
+		//   (String charAt(i) 메소드 사용)
+		
+		String str = "dBEfIZ";
+		
+		char[] charAt = str.toCharArray();
+		
+		for(int i = 0; i <= str.length(); i++) {
+		if(i == 0) {
+			charAt[i] = (char)(charAt[i] - 3);
+			System.out.print(charAt[i]);			
+		} else if(i == 1) {
+			charAt[i] = (char)(charAt[i] + 40);
+			System.out.print(charAt[i]);
+		} else if(i == 2) {			
+			System.out.print(charAt[i]);
+		} else if(i == 3) {			
+			System.out.print(charAt[i]);		
+		} else if(i == 4) {	
+			charAt[i] = (char)(charAt[i] + 26);		
+			System.out.print(charAt[i]);
+		} else if(i == 5) {	
+			charAt[i] = (char)(charAt[i] - 23);		
+			System.out.print(charAt[i]);
+		}
+		}
+		
+	}
+
+}

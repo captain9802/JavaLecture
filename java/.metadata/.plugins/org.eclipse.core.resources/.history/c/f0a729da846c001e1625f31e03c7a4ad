@@ -1,0 +1,16 @@
+package chap02_variables;
+
+public class _441_ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 String str = "LEN_INPUT";
+		    String b = null;
+			for(int a = 0; 1 <= a && a <= 5; a++) {
+		    b = str.repeat(a);    		   		    
+		    }    
+		    System.out.println(b);
+
+	}
+
+}

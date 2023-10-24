@@ -1,0 +1,21 @@
+package chap04_controlstatement;
+
+public class _09_DuplicatedFor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        //1. 2~9단까지 구구단 출력
+		for(int i = 2; i <=9; i++) {
+			for(int j = 1; j <= 9; j++) {
+				System.out.print(i + " * " + j + " = " + (i * j) + "    ");
+			}			// 1번 실행하고 줄 변경
+			System.out.println();
+		}
+		
+		//2. * 세로 5줄 가로 5줄
+		for(int x = 1; x < 6; x++) {			for(int z = 1; z < 6; z++) {				System.out.print(" * ");			}			System.out.println();		}
+				//반대로				for(int x = 5; x > 0; x--) {			for(int z = 5; z > 0; z--) {				System.out.print("*");			}			System.out.println();		}		
+	
+	}
+
+}

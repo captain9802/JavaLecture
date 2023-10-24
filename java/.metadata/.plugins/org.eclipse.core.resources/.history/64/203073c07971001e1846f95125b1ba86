@@ -1,0 +1,12 @@
+package chap14_objectarray.objectarray;
+
+public class English CommonStat implements InterfaceArray {
+	
+
+	@Override
+	public void porceedLecture() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

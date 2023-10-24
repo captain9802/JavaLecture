@@ -1,0 +1,37 @@
+package homework1020_school;
+
+public class MathStudent extends CommonStat implements Student {
+	
+	
+	
+	
+	
+	public MathStudent() {
+		
+	}
+	public MathStudent(int sno, String name, String[] subject, int[] finalExamScore) {
+		this.sno = sno;
+		this.name = name;
+		this.subject = subject;
+		this.finalExamScore = finalExamScore;
+	}
+	
+	@Override
+	public void saveInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void printInfo() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public double getAvg() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

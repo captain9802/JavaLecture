@@ -1,0 +1,69 @@
+package chap09_inherit.board;
+
+public abstract class Board {
+	int boardNo;
+	String boardTitle;
+	String boardContent;
+	String boardWritter;
+	String boardDate;
+	
+	public Board() {
+		
+	}
+	
+	//alt + shift + s 누르고 제너레이트 컨스트럭터 유싱 필드 누르고 생성자 뒤에 만들기 누르면 자동으로 만들어짐
+	public Board(int boardNo, String boardTitle, String boardContent, String boardWritter, String boardDate) {
+		super();
+		this.boardNo = boardNo;
+		this.boardTitle = boardTitle;
+		this.boardContent = boardContent;
+		this.boardWritter = boardWritter;
+		this.boardDate = boardDate;
+	}
+
+	public int getBoardNo() {
+		return boardNo;
+	}
+
+	public void setBoardNo(int boardNo) {
+		this.boardNo = boardNo;
+	}
+
+	public String getBoardTitle() {
+		return boardTitle;
+	}
+
+	public void setBoardTitle(String boardTitle) {
+		this.boardTitle = boardTitle;
+	}
+
+	public String getBoardContent() {
+		return boardContent;
+	}
+
+	public void setBoardContent(String boardContent) {
+		this.boardContent = boardContent;
+	}
+
+	public String getBoardWritter() {
+		return boardWritter;
+	}
+
+	public void setBoardWritter(String boardWritter) {
+		this.boardWritter = boardWritter;
+	}
+
+	public String getBoardDate() {
+		return boardDate;
+	}
+
+	public void setBoardDate(String boardDate) {
+		this.boardDate = boardDate;
+	}
+	
+	public void insertBoard();	
+	
+	
+	
+
+}

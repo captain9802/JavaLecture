@@ -1,0 +1,23 @@
+package homework1020_school;
+
+import java.util.Scanner;
+
+public class Homework2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		 사용자가 입력한 문자열1, 문자열2 문자열1이 문자열2를 포함하면
+//		  '포함합니다.'를 출력, 아니면 '포함하지 않습니다.'를 출력
+		Scanner sc = new Scanner(System.in);
+		System.out.println("문자열1 을 입력하세요.");
+		String user1 = sc.nextLine();
+
+		for(int i = 0; i < user1.length(); i++) {
+			
+		}
+		
+
+
+	}
+
+}

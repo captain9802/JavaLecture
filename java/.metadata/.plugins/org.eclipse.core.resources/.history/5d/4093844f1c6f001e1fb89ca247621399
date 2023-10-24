@@ -1,0 +1,5 @@
+package chap12_interface.multiinherit;
+
+public interface InterfaceChild extends Mother2, Father2 {
+
+}

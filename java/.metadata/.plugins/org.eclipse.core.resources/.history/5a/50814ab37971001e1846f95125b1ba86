@@ -1,0 +1,11 @@
+package chap14_objectarray.objectarray;
+
+public class English implements InterfaceArray {
+
+	@Override
+	public void porceedLucture() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

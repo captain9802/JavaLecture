@@ -1,0 +1,19 @@
+package homework;
+
+import java.util.Scanner;
+
+public class SetValuee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		setValue com = new setValue();
+		
+		int user = sc.nextInt();
+		
+		com.ad
+
+	}
+
+}

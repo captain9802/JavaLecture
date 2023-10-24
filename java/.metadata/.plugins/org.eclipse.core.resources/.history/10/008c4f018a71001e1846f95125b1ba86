@@ -1,0 +1,9 @@
+package homework1020_school;
+
+public interface Student {
+	
+	void saveInfo();
+	void printInfo();
+	double getAvg();
+
+}
